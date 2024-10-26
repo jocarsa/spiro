@@ -86,7 +86,7 @@ drawing_started = False  # Flag to avoid drawing the initial line from the cente
 first_x, first_y = None, None  # To capture the first point drawn
 
 frame_count = 0
-minutes = 1
+minutes = 60*12
 max_frames = minutes * 60 * fps  # Limit to 1 hour of frames
 
 # Random HSL color for the trace
